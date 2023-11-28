@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'DNFBitBitv2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.df.nexon.com/img/common/font/DNFBitBitv2.otf')format('opentype')
+  }
+  
+  * {
+    font-family: 'DNFBitBitv2';
+    align-items: center;
+    color: #4F3C2C;
+  }
+  
+  .board_main {
+    background-color: #C8966D;
+    padding-top: 10vh;
+  }
+  
+  .board_ground {
+    background-color: #7FB77E;
+    display: grid;
+    place-content: center;
+  }
+  
+  .board_background { 
+    display: grid;
+    background-color: #FFE6BC;
+    border-radius: 3vh 3vh 0 0;
+    place-items: center;
+    padding-top: 5vh;
+    width: 75vw;
+  }
+  
+  .board_content {
+    padding: 5vh 5vw 8vh 5vw;
+    background-color: #FFF4E0;
+    width: 59vw;
+    border-radius: 3vh 3vh 0 0;
+    display: grid;
+    place-items: center;
+  }
+  .board_buttons {
+    width: 75vw;
+    display: grid;
+    place-items: center;
+    justify-content: end;
+    grid-template-columns: repeat(2, 7vw);
+    margin: 6vh 0 2vh 0;
+  }
+  .board_links {
+    text-align: center;
+    color: white;
+  }
+  
+  .posts {
+    display: grid;
+    grid-template-columns: 5vw 35vw 8vw 6.5vw 4vw;
+    grid-template-rows: 5vw;
+    font-size: 1.1vw;
+  }
+  
+  .board_number, .board_title, .board_writer ,.board_click, .board_like {
+    color: #4F3C2C;
+  }
+
+  #post1, #post11 {
+    border-bottom: #4F3C2C solid 3px;
+  }
+
+  .list_number{
+    margin: 0 1vw 0 1vw;
+  }
+
+  .page_list {
+    margin-top: 3vh;
+  }
+
+  #like0 {
+    color: #FF522D;
+  }
