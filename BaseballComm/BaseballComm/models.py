@@ -7,4 +7,3 @@ class ModelUser(models.Model) :
     nickname =  models.CharField(max_length=15)
     team = models.SmallIntegerField()
     email = models.EmailField()
-    
